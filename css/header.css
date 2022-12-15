@@ -1,0 +1,103 @@
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px 12% 0 6.9%;
+    
+}
+.base-line {
+    background-image: url(../img/ic_baseline-menu.png);
+    background-repeat: none;
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+.left-part {
+    display: flex;
+    gap: 60px;
+}
+.middle-part {
+    font-weight: 900;
+    font-size: 26px;
+    color: #37447E;
+    
+}
+ul * {
+    color: #37447E;
+    font-weight: 400;
+    font-size: 14px;
+}
+.button-right-part {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    width: 160px;
+    height: 26px;
+    background-color: #111B47;
+    color: white;
+    font-size: 12px;
+    
+    
+}
+@media screen and (max-width: 750px) {
+    .base-line {
+        display: block;
+        margin: 19px 0 0 0;
+    }
+    .left-part {
+        display: none;
+    }
+    .right-part {
+        display: none;
+    }
+    .middle-part {
+        padding: 12px 0 0 16px ;
+        margin-right: -300px;
+    }
+}
+
+.scrapper {
+    background-image: url(../img/designer_1\ \(1\).svg);
+    background-repeat: no-repeat;
+    height: 150vh;
+    background-size: auto calc(100vh + 400px) ;
+    background-position: calc(100% + 430px) -45px;
+}
+
+@media screen and (max-width:1180px) {
+    .scrapper {
+        background-position: calc(100% + 610px) -45px;
+        background-size: auto calc(100vh + 100px);
+        
+    }
+}
+@media screen and (max-width:1000px) {
+    .scrapper {
+        background-position: calc(100% + 670px) -45px;
+    }
+}
+@media screen and (max-width:950px) {
+    .scrapper {
+        background-position: calc(100% + 710px) -45px;
+    }
+}
+@media screen and (max-width:900px) {
+    .scrapper {
+        background-position: calc(100% + 770px) -45px;
+    }
+}
+@media screen and (max-width:825px) {
+    .scrapper {
+        background-position: calc(100% + 830px) -45px;
+    }
+}
+@media screen and (max-width:600px) {
+    .scrapper {
+        background-position: center 30px;
+        background-size: 500px 500px;
+    }
+    
+}
+
