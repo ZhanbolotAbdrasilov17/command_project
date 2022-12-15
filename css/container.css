@@ -17,22 +17,41 @@
     font-size: 36px;
 }
 
-p{
+.up-text{
     max-width: 707px;
     width: 100%;
     padding-top: 16px;
 
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
+
    
     color: #6F7CB2;
 
 }
 
+.low-text{
+    line-height: 26px;
+
+}
+
+.title-left, .title-right{
+    color: #091133;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
 
 
 .parent{
     display: flex;
+}
+
+.desc-left, .desc-right{
+    line-height: 18px;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 992px) {
@@ -53,6 +72,10 @@ p{
     .text{
         margin: 0 auto;
         margin-bottom: 90px;
+    }
+
+    .title-left, .title-right{
+        color: #FFFFFF;
     }
 
     
@@ -89,17 +112,28 @@ p{
     }
 
     .title{
-        fill: #FFFFFF;
+        color: #FFFFFF;
 
     }
 
-    p{
+    .up-text{
         color: #FFFFFF;
 
     }
     
     .parent{
         color: #FFFFFF;
+
+    }
+
+    .left-pic, .right-pic, path{
+        fill: white;
+    }
+
+    .desc-left, .desc-right{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
 
     }
 
